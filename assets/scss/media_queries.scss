@@ -2,7 +2,7 @@
 //             MEDIA QUERIES
 // =========================================
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 840px) {
     body {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -24,9 +24,11 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
     body {
-        overflow: scroll;
+        overflow-y: scroll;
+        background: none;
+
 
         main {
             min-height: 100vh;
@@ -43,7 +45,7 @@
 
 @media screen and (max-width: 700px) {
     body {
-        overflow: scroll;
+        overflow-y: scroll;
 
         main {
             min-height: 100vh;
@@ -60,7 +62,7 @@
 
 @media screen and (max-width: 600px) {
     body {
-        overflow: scroll;
+        overflow-y: scroll;
 
         main {
             min-height: 100vh;
