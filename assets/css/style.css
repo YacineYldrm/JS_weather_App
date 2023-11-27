@@ -20,7 +20,7 @@ body main {
   background: linear-gradient(120deg, rgb(135, 196, 255) 50%, #1696ff 100%) no-repeat;
   flex-basis: 500px;
   min-height: auto;
-  max-height: 638px;
+  max-height: 665px;
   padding: 18px;
   display: flex;
   flex-direction: column;

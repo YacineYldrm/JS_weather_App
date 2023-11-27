@@ -82,7 +82,7 @@ const renderContent = (apiData) =>
     let localMinutes = localMinutesNum.toString().padStart(2, "0");
     let timeZone = (apiData.timezone) / 3600; // + errechnet UTC timestamp
     let localHourNum = currentHour + timeZone + userTimeDiff;
-    let localHour = localHourNum.toString().padStart(2, "0");
+    let localHour = Math.abs(localHourNum.toString().padStart(2, "0"));
     let localTime = `${localHour}:${localMinutes}`;
     let amOrPmOutput = "";
 
